@@ -5,6 +5,7 @@ __attention:__
 the schema config rule as some as ajv.
 
 Validation keywords  [how to config schema](https://github.com/ajv-validator/ajv#validation-keywords).
+
 Validation and reporting options  [how to config reporting options](https://github.com/ajv-validator/ajv#validation-and-reporting-options).
 
 # Getting Start
