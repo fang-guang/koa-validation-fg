@@ -1,0 +1,39 @@
+{
+  "name": "koa-validation-fg",
+  "version": "1.0.0",
+  "description": "A middleware of verify koa param",
+  "main": "./src/index",
+  "scripts": {
+    "test": "ava ./test/*.test.js",
+    "lint": "eslint ./src/**/*.js ./src/*.js ./test/*.js",
+    "cov": "node_modules/.bin/nyc report --reporter=text-summary",
+    "nyc:cov": "node_modules/.bin/nyc ava ./test/*.test.js && nyc report --reporter=html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fang-guang/koa-validation-fg.git"
+  },
+  "keywords": [
+    "ajv",
+    "koa",
+    "middleware",
+    "validation"
+  ],
+  "author": "fangguang",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.12.3",
+    "boom": "^7.3.0",
+    "lodash": "^4.17.19"
+  },
+  "devDependencies": {
+    "ava": "^3.8.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "koa": "^2.12.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^8.0.8",
+    "supertest": "^4.0.2"
+  }
+}
